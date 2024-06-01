@@ -14,7 +14,3 @@ repos:
         exclude: ^report/
       - id: black-jupyter
         exclude: ^report/
-  - repo: https://gitlab.com/iamlikeme/nbhooks
-    rev: 1.0.0  # Set to the most recent version
-    hooks:
-    - id: nb-ensure-clean
